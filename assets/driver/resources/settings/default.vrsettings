@@ -1,0 +1,13 @@
+{
+  "driver_freelinkvr": {
+    "enable": true,
+    "windowWidth": 1280,
+    "windowHeight": 720,
+    "refreshRate": 60.0,
+    "ipdMeters": 0.064,
+    "fovDegrees": 90.0,
+    "seatedHeightMeters": 1.65,
+    "distortionK1": 0.0,
+    "distortionK2": 0.0
+  }
+}

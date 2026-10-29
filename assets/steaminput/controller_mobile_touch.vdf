@@ -1,0 +1,63 @@
+"controller_mappings"
+{
+    "version" "3"
+    "revision" "2"
+    "game" "FreeLinkVR"
+    "title" "FreeLinkVR - Mouse and optional gyro"
+    "description" "Gyro always on. A selects a game, Y opens VR library, X recenters."
+    "controller_type" "controller_mobile_touch"
+    "touch_layout" "10031804"
+    "group"
+    {
+        "id" "0"
+        "mode" "gyro_to_mouse"
+        "inputs" { }
+        "settings"
+        {
+            "gyro_ratchet_button_mask" "0"
+            "gyro_button_invert" "0"
+        }
+    }
+    "group"
+    {
+        "id" "1"
+        "mode" "absolute_mouse"
+        "inputs" { }
+        "settings" { }
+    }
+    "group"
+    {
+        "id" "2"
+        "mode" "four_buttons"
+        "inputs"
+        {
+            "button_a" { "activators" { "Full_Press" { "bindings" { "binding" "key_press RETURN" } } } }
+            "button_b" { "activators" { "Full_Press" { "bindings" { "binding" "key_press ESCAPE" } } } }
+            "button_x" { "activators" { "Full_Press" { "bindings" { "binding" "key_press R" } } } }
+            "button_y" { "activators" { "Full_Press" { "bindings" { "binding" "key_press L" } } } }
+        }
+    }
+    "group"
+    {
+        "id" "3"
+        "mode" "switches"
+        "inputs"
+        {
+            "button_escape" { "activators" { "Full_Press" { "bindings" { "binding" "key_press ESCAPE" } } } }
+            "button_menu" { "activators" { "Full_Press" { "bindings" { "binding" "key_press R" } } } }
+        }
+    }
+    "preset"
+    {
+        "id" "0"
+        "name" "Default"
+        "group_source_bindings"
+        {
+            "0" "gyro active"
+            "1" "right_trackpad active"
+            "2" "button_diamond active"
+            "3" "switch active"
+        }
+    }
+    "settings" { }
+}
